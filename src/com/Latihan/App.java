@@ -105,11 +105,19 @@ public class App {
         player4.setArmor(armor4);
         player4.setWeapon(weapon4);
 
+        Player player5 = new Player("Lutfi Azizan");
+        Armor armor5 = new Armor("Baju baja", 5, 40);
+        Weapon weapon5 = new Weapon("Busur", 50);
+        player4.setArmor(armor5);
+        player4.setWeapon(weapon5);
+
         player1.display();
         player2.levelUp();
         player2.display();
         player3.levelUp();
         player3.display();
         player4.display();
+        player5.levelUp();
+        player5.display();
     }
 }
